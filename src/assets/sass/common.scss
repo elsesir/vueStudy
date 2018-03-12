@@ -1,0 +1,18 @@
+@import "variable.scss";
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: $black1;
+}
+h3{
+  margin: 0;
+}
+.page {
+  background-color: aliceblue;
+  height: 450px;
+  margin: 0 6px;
+  border-radius: 3px;
+  padding: 20px 10px;
+}
