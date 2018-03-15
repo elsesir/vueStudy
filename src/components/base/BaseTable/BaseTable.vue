@@ -5,7 +5,7 @@
     <slot name="tableHeader"></slot>
   </div>
   <div class="table-body">
-    <slot name="tableRow"></slot>
+    <slot name="tableBody"></slot>
   </div>
 </div>
 
@@ -15,7 +15,13 @@
   export default {
       data() {
         return {}
+      },
+    props: {
+      tableData: {
+        type: Array,
+        default: []
       }
+    }
   }
 </script>
 

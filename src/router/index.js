@@ -1,7 +1,8 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import ReadMe from '@/views/ReadMe'
-import BaseTable from '@/views/BaseTableTest'
+import Vue from 'vue';
+import Router from 'vue-router';
+import ReadMe from '@/views/ReadMe';
+import BaseTable from '@/views/BaseTableTest';
+import ElementTable from '@/views/ElementTable';
 
 Vue.use(Router)
 
@@ -21,6 +22,11 @@ export default new Router({
       path: '/basetable',
       name: 'BaseTable',
       component: BaseTable
+    },
+    {
+      path: '/elementTable',
+      name: 'ElementTable',
+      component: ElementTable
     }
   ]
 })

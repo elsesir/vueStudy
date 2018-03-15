@@ -17,12 +17,14 @@
               readMe: {
                 name: '关于',
                 link:'/readme',
-                logo: null,
               },
               baseTable: {
                 name: 'BaseTable组件',
                 link:'/basetable',
-                logo: null,
+              },
+              elementTable: {
+                name: 'Element 列表',
+                link: '/elementTable'
               }
             }
           }
@@ -55,7 +57,7 @@
     /*background-color: #42b983;*/
     color: #eeeeee;
     text-align: start;
-    text-indent: 15px;
+    text-indent: 20px;
     font-weight: 400;
     width: 150px;
 
@@ -65,6 +67,9 @@
     &:nth-of-type(2) {
        left: 140px;
      }
+  &:nth-of-type(3) {
+     left: 280px;
+   }
      &:after {
         position: absolute;
         top: 0;

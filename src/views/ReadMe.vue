@@ -2,6 +2,7 @@
 <div class="page">
   <h3>列表组件总结</h3>
   <p>1. BaseTable 组件 </p>
+  <p>2. Element 列表组件</p>
 </div>
 </template>
 

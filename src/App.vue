@@ -45,6 +45,6 @@ export default {
   text-align: center;
   padding-top: 85px;
   background-color: $green1;
-  height: 500px;
+  height: 100%;
 }
 </style>

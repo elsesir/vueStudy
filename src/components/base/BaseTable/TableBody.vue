@@ -1,12 +1,30 @@
 <template>
-<div>tableBody</div>
+<div>
+  <div>tableBody</div>
+  <!--<table-row v-for="row in tableData" :rowData="row">-->
+  <!--</table-row>-->
+  <!--<slot name="table-row"></slot>-->
+</div>
 </template>
 
 <script>
+  import TableRow from "./TableRow";
     export default {
-        data() {
-          return {}
+      components: {
+        TableRow
+      },
+      data() {
+        return {}
+      },
+      props: {
+        tableData: {
+          type: Array,
+          default: [],
         }
+      },
+      methods: {
+
+      }
     }
 </script>
 
